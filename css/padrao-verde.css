@@ -1,0 +1,25 @@
+body,td,div,p,a,font,span {font-family: arial,sans-serif}
+body {margin-top:2}
+
+.c {width: 4; height: 4}
+
+.bubble {background-color:#C5FFC4}
+
+.tl {padding: 0; width: 4; text-align: left; vertical-align: top}
+.tr {padding: 0; width: 4; text-align: right; vertical-align: top}
+.bl {padding: 0; width: 4; text-align: left; vertical-align: bottom}
+.br {padding: 0; width: 4; text-align: right; vertical-align: bottom}
+
+.form-noindent {background-color: #ffffff; border: #C5FFC4 1px solid}
+
+.style1 {
+	color: #36CD32;
+	font-weight: bold;
+}
+ 
+
+
+      div.errormsg { color: red; font-size: smaller; font-family:arial,sans-serif; }
+      font.errormsg { color: red; font-size: smaller; font-family:arial,sans-serif; }  
+
+
