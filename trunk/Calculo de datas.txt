@@ -1,0 +1,7 @@
+<?
+print "<br>teste<br>";
+$mes = 2;
+$ano = 2005;
+print "<br>Primeiro dia do mes: " . date("d/m/Y",mktime(0,0,0,$mes  ,01,$ano));
+print "<br>Último dia do mes  : " . date("d/m/Y",mktime(0,0,0,$mes+1,0 ,$ano)); //Inteiro do ultimo dia do mês 
+?>

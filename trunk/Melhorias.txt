@@ -1,0 +1,41 @@
+Ao editar registros:
+  - Alterar as funções para quando clicar em editar,consultar ou
+    excluir registro, a tela deverá executar a ação sem tirar a
+    o foco da tela da posição trabalhada no momento.
+
+Criar modulo de backup de dados:
+  - Este modulo deverá exportar em formato pre-definido as
+    tabelas de Centro de Custo, Favorecidos e Movimentos.
+  - Após a geração do arquivo de backup, o sistema deverá
+    efetuar o download do arquivo para que o usuario guarde-o
+    em sua própria máquina.
+  - Neste modulo, deverá disponibilizar uma funão de limpeza
+    de base onde será feita a limpeza das tabelas menos a tabela
+    de cadastro de usuário.
+  - Diponibilizar a função de Restore de backup, onde o sistema
+    irá solicitar o arquivo de backup em formato especifico,
+    fazer o upload do arquivo e carregar os dados para a base.
+
+Configurações pessoais:
+  - Incluir no sistema a possibilidade de algumas configurações
+    pessoais tipo altura da tela ou quantidade de registros na tela.
+
+Gráficos:
+  - Criar uma tela só de gráficos e relatórios
+      - Despesas por Centro de Custo ( já tem )
+      - Despesas por Favorecidos
+      - Débito x Credito ( já tem )
+      - Saldos dos ultimos 12 meses
+      - Total de Debitos dos ultimos 12 meses
+      - Total de Creditos dos ultimos 12 meses
+
+Agenda de pagamentos:
+  - Uma função onde o usuario poderá agendar pagamentos periódicos
+  - Esta função permitirá que o usuario escolha qual movimento está
+    sendo realizado e inclui-los no extrato.
+
+Movimentos: ( Duplicar para proximo mes )
+  - Na tela de movimentos, incluir um check box no final de cada movimento
+    com a função de marcar quais movimentos deseja executar alguma ação.
+  - Incluir um botão de duplicar movimentos para o proximo mes onde irá
+    recuperar quais movimentos irá ser inserido com data de um mes a frente.
